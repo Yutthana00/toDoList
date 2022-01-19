@@ -20,6 +20,17 @@ body {
     
 }
 
+.col-md-1hour{
+    color: #ed7272;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+
+.col-md-10 {
+    columns: auto;
+}
+
 #clearbtn {
     background: rgb(242, 242, 240);
     padding: 10px;
@@ -63,4 +74,38 @@ body {
     white-space: pre-wrap;
     height: 80px;
     font-weight: 600;
+}
+
+.time-block {
+    text-align: center;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+}
+
+.hour {
+background: #fcf0c8;
+color: rgb(82, 82, 82);
+padding-top: 27px;
+padding-left: 10px;
+font-size: 20px;
+font-weight: 500;
+}
+
+.past {
+    background-color: #dfe6e9;
+    border-radius: 15px;
+    color: aliceblue;
+}
+
+.present {
+    background-color: red;
+    border-radius: 15px;
+}
+
+.future {
+    background-color: #ed7272;
 }
