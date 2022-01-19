@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #dfe6e9;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1024px;
+    background: transparent;
+    border: none;
+    resize: none;
+    color: rgb(82, 82, 82);
+    padding: 10px;
+    letter-spacing: 1px;
+    
+}
+
+#clearbtn {
+    background: rgb(242, 242, 240);
+    padding: 10px;
+    
+}
+
+#savebtn {
+    border-left: 1px solid rgb(82, 82, 82);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: whitesmoke;
+    background: linear-gradient(to right, #ed7272, #8578e9);
+}
+#savebtn:hover {
+    cursor: pointer;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+}
+
+.taxtarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: rgb(82, 82, 82);
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #ed7272, #8578e9);
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    border-bottom: 10px solid rgb(82, 82, 82);
+}
+
+.decscription {
+    white-space: pre-wrap;
+    height: 80px;
+    font-weight: 600;
+}
