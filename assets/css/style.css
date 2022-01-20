@@ -32,9 +32,12 @@ body {
     columns: auto;
 }
 
-#clearbtn {
+#clearBtn {
     background: rgb(242, 242, 240);
     padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
     
 }
 
@@ -109,6 +112,7 @@ font-weight: 500;
 
 .future {
     background-color: #9de4f4;
+    border-radius: 15px;
 }
 @media (max-width: 872px) {
     .container {
