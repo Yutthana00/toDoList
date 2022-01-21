@@ -2,9 +2,13 @@ var today = moment().format("dddd Do MMMM YYYY ");
 var currentTime = moment();
 var currentHour = moment().format("k");
 
+$("#currentDay").append(today)
 $(document).ready(function() {
+    
 });
 
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
 
 $(".time-div").each(function () {
     var timeDiv = $(this).attr("id").split("-")[1];

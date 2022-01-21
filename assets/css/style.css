@@ -13,7 +13,7 @@ body {
     padding: 10px;
   }
   
-  .jumbotron {
+    .jumbotron {
     background: linear-gradient(to right, #ed7272, #8578e9);
     text-align: center;
     background-color: transparent;
